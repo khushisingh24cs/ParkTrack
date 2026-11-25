@@ -1,0 +1,19 @@
+[
+  "test_automata.py::test_api",
+  "test_automata.py::test_classify[PV12--No-Permit]",
+  "test_automata.py::test_classify[PV12-blocking a gate-Obstruction]",
+  "test_automata.py::test_classify[PV12-blocking wheelchair ramp, disabled-Disabled-Bay]",
+  "test_automata.py::test_classify[PV12-expired-No-Permit]",
+  "test_automata.py::test_classify[PV25--Overstay]",
+  "test_automata.py::test_classify[PV25-wrong zone-Wrong-Zone]",
+  "test_automata.py::test_classify[PV35--Wrong-Zone]",
+  "test_automata.py::test_classify[PV45--Obstruction]",
+  "test_automata.py::test_classify[PV55--Disabled-Bay]",
+  "test_automata.py::test_exhaustive_agreement",
+  "test_automata.py::test_ka_011_2020_rejected",
+  "test_automata.py::test_trace_and_errors",
+  "test_automata.py::test_unmapped_stays_unmapped[PV00]",
+  "test_automata.py::test_unmapped_stays_unmapped[PV09]",
+  "test_automata.py::test_unmapped_stays_unmapped[PV60]",
+  "test_automata.py::test_unmapped_stays_unmapped[PV99]"
+]
