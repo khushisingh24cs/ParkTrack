@@ -11,29 +11,3 @@ ParkTrack is a full-stack parking violation reporting, validation, dispatch, and
 3. **Automata Microservice (`automata-service/`, port `5001`)** — Python Flask
    - Hand-coded DFAs and equivalent Regular Expressions for Indian vehicle registration numbers (`^[A-Z]{2}[0-9]{2}[A-Z]{1,2}[0-9]{4}$`) and violation codes (`^PV[0-9]{2}$`), plus category mapping (`PV10–PV59` and `UNMAPPED`).
 
-## Running All 3 Services
-
-### 1. Python Automata Microservice (Port 5001)
-```bash
-cd automata-service
-pip install -r requirements.txt
-python app.py
-```
-
-### 2. Node.js + Express Backend (Port 5000)
-```bash
-cd server
-npm install
-# Optional: copy .env.example to .env and set MONGO_URI for MongoDB Atlas
-npm run dev
-```
-
-### 3. React + Vite Frontend (Port 5173)
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Open **http://localhost:5173** in your browser.
-
