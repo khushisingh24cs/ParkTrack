@@ -6,11 +6,11 @@ ParkTrack is a web-based application designed to simplify parking violation repo
 
 ## 🌐 Live Application
 
-**[Click here to visit ParkTrack](https://parktrack-client.onrender.com?utm_source=chatgpt.com)**
+**[Click here to visit ParkTrack](https://parktrack-client.onrender.com)**
 
 ## 📂 GitHub Repository
 
-[View the ParkTrack source code](https://github.com/khushisingh24cs/ParkTrack?utm_source=chatgpt.com)
+[View the ParkTrack source code](https://github.com/khushisingh24cs/ParkTrack)
 
 ## ✨ Features
 
